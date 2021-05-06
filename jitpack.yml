@@ -1,0 +1,3 @@
+install: 
+  - FILE="-Dfile=epathmap-release.aar" 
+  - mvn install:install-file $FILE -DgroupId=com.epath.map -DartifactId=epath -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
